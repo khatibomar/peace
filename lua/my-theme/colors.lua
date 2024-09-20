@@ -6,40 +6,40 @@ local colors = {
 }
 
 if vim.o.background == "light" then
-	-- background colors
-	colors.bg = config.transparent and "NONE" or "#ffffff"
-	colors.bgDark = "#dddddd"
-	colors.bgDarker = "#f6f6f6"
-	colors.bgFloat = "#E0E0E0"
-	colors.bgOption = "#EDEDED"
-	-- foreground colors
-	colors.fg = "#616161"
-	colors.fgAlt = "#212121"
-	colors.fgCommand = "#333333"
-	colors.fgInactive = "#9E9E9E"
-	colors.fgDisabled = "#D0D0D0"
-	colors.fgLineNr = "#a1a1a1"
-	colors.fgSelection = "#424242"
-	colors.fgSelectionInactive = "#757575"
-	-- border colors
-	colors.border = "#c2c3c5"
-	colors.borderFocus = "#AAAAAA"
-	colors.borderDarker = "#999999"
-	-- ui colors
-	colors.blue = "#6871ff"
-	colors.red = "#d6656a"
-	colors.purple = "#9966cc"
-	colors.redDark = "#D32F2F"
-	colors.orange = "#f29718"
-	colors.blueLight = "#1976D2"
-	colors.comment = "#848484"
-	colors.orangeLight = "#dd8500"
-	colors.green = "#22863a"
-	colors.yellowDark = "#cd9731"
-	colors.purpleDark = "#800080"
-	colors.symbol = "#a1a1a1"
-	colors.primary = "#000000"
-	colors.terminalbrightblack = "#333333"
+    -- background colors
+    colors.bg = config.transparent and "NONE" or "#E0FBE2"  -- New background color
+    colors.bgDark = "#C4E9C8"   -- Slightly darker shade of the background
+    colors.bgDarker = "#B0DDB6" -- Even darker shade for more contrast
+    colors.bgFloat = "#D0F5D4"  -- Float background with a light tint
+    colors.bgOption = "#D9F8DE" -- Background for optional elements
+    -- foreground colors
+    colors.fg = "#4D4D4D"       -- Dark gray for good contrast
+    colors.fgAlt = "#333333"     -- Even darker foreground
+    colors.fgCommand = "#2B5C30" -- Slight green tint for commands
+    colors.fgInactive = "#8D8D8D" -- Lighter gray for inactive elements
+    colors.fgDisabled = "#AFAFAF" -- Disabled color slightly toned down
+    colors.fgLineNr = "#6E6E6E"  -- Line number gray, still visible
+    colors.fgSelection = "#38754D" -- Greenish tint for selection
+    colors.fgSelectionInactive = "#6B8F74" -- Softer selection for inactive items
+    -- border colors
+    colors.border = "#B6D8B9"    -- Border color complementing background
+    colors.borderFocus = "#9ABD9D" -- Focused border with more saturation
+    colors.borderDarker = "#8CA38B" -- Darker border for deeper elements
+    -- ui colors
+    colors.blue = "#527BB5"      -- Softer blue to balance green
+    colors.red = "#C95C5C"       -- Muted red
+    colors.purple = "#8A56A2"    -- Slightly softer purple
+    colors.redDark = "#B04949"   -- Dark red for contrast
+    colors.orange = "#E89B4A"    -- Warm orange to complement green
+    colors.blueLight = "#4A90E2" -- Light blue with clarity
+    colors.comment = "#7A7A7A"   -- Comment gray, neutral
+    colors.orangeLight = "#DB7E2D" -- Lighter orange
+    colors.green = "#3FAF5C"     -- Strong green to go with background
+    colors.yellowDark = "#B38C33" -- Muted yellow
+    colors.purpleDark = "#6E3E87" -- Darker purple
+    colors.symbol = "#5C5C5C"    -- Neutral symbol color
+    colors.primary = "#2E2E2E"   -- Primary text dark
+    colors.terminalbrightblack = "#404040" -- Bright black for terminal contrast
 else
 	-- background colors
 	colors.bg = config.transparent and "NONE" or "#212121"
