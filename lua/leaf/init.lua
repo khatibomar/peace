@@ -1,8 +1,8 @@
-local colors = require("my-theme.colors")
-local config = require("my-theme.config")
-local utils = require("my-theme.utils")
-local bufferline = require("my-theme.integrations.bufferline")
-local cmp = require("my-theme.integrations.cmp")
+local colors = require("leaf.colors")
+local config = require("leaf.config")
+local utils = require("leaf.utils")
+local bufferline = require("leaf.integrations.bufferline")
+local cmp = require("leaf.integrations.cmp")
 local theme = {}
 
 local function set_terminal_colors()
@@ -299,7 +299,7 @@ end
 
 function theme.colorscheme()
 	if vim.version().minor < 8 then
-		vim.notify("Neovim 0.8+ is required for my-theme colorscheme", vim.log.levels.ERROR, { title = "Min Theme" })
+		vim.notify("Neovim 0.8+ is required for leaf colorscheme", vim.log.levels.ERROR, { title = "Min Theme" })
 		return
 	end
 
@@ -310,7 +310,7 @@ function theme.colorscheme()
 
 	vim.g.VM_theme_set_by_colorscheme = true -- Required for Visual Multi
 	vim.o.termguicolors = true
-	vim.g.colors_name = "my-theme"
+	vim.g.colors_name = "leaf"
 
 	set_terminal_colors()
 	set_groups()

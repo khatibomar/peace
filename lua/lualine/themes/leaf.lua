@@ -1,5 +1,5 @@
-local colors = require("my-theme.colors")
-local config = require("my-theme.config")
+local colors = require("leaf.colors")
+local config = require("leaf.config")
 local theme = {}
 
 local bg = config.transparent and "NONE" or colors.bg

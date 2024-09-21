@@ -65,7 +65,7 @@ require("lazy").setup({
 	},
 })
 
-local theme = require("my-theme/init")
+local theme = require("leaf/init")
 
 theme.setup({
 	theme = "dark",
