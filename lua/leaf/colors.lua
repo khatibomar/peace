@@ -7,39 +7,39 @@ local colors = {
 
 if vim.o.background == "light" then
     -- background colors
-    colors.bg = config.transparent and "NONE" or "#E0FBE2"  -- New background color
-    colors.bgDark = "#C4E9C8"   -- Slightly darker shade of the background
-    colors.bgDarker = "#B0DDB6" -- Even darker shade for more contrast
-    colors.bgFloat = "#D0F5D4"  -- Float background with a light tint
-    colors.bgOption = "#D9F8DE" -- Background for optional elements
+    colors.bg = config.transparent and "NONE" or "#D4E8D2"  -- Warm, soft green background
+    colors.bgDark = "#C2D6BE"   -- Slightly darker, muted green for contrast
+    colors.bgDarker = "#B0C4AA" -- Even darker green, but still calm and warm
+    colors.bgFloat = "#D9EDD7"  -- Float background with a gentle light green tint
+    colors.bgOption = "#E0F2DD" -- Background for optional elements, soft and easy on the eyes
     -- foreground colors
-    colors.fg = "#4D4D4D"       -- Dark gray for good contrast
-    colors.fgAlt = "#333333"     -- Even darker foreground
-    colors.fgCommand = "#2B5C30" -- Slight green tint for commands
-    colors.fgInactive = "#8D8D8D" -- Lighter gray for inactive elements
-    colors.fgDisabled = "#AFAFAF" -- Disabled color slightly toned down
-    colors.fgLineNr = "#6E6E6E"  -- Line number gray, still visible
-    colors.fgSelection = "#38754D" -- Greenish tint for selection
-    colors.fgSelectionInactive = "#6B8F74" -- Softer selection for inactive items
+    colors.fg = "#4A4A4A"       -- Dark gray for comfortable readability
+    colors.fgAlt = "#2E2E2E"    -- Deeper dark gray for better contrast
+    colors.fgCommand = "#2F5130" -- Subtle green for commands
+    colors.fgInactive = "#7C7C7C" -- Neutral gray for inactive elements
+    colors.fgDisabled = "#9C9C9C" -- Slightly muted gray for disabled text
+    colors.fgLineNr = "#656565"  -- Line number in soft gray, easy on the eyes
+    colors.fgSelection = "#42664A" -- Warm green for selection, matching background tone
+    colors.fgSelectionInactive = "#6C8272" -- Softer selection for inactive items
     -- border colors
-    colors.border = "#B6D8B9"    -- Border color complementing background
-    colors.borderFocus = "#9ABD9D" -- Focused border with more saturation
-    colors.borderDarker = "#8CA38B" -- Darker border for deeper elements
+    colors.border = "#B2C4B0"    -- Soft, neutral border to match the green tones
+    colors.borderFocus = "#A2B39F" -- Focused border with subtle contrast
+    colors.borderDarker = "#8A9987" -- Darker border for deeper elements
     -- ui colors
-    colors.blue = "#527BB5"      -- Softer blue to balance green
-    colors.red = "#C95C5C"       -- Muted red
-    colors.purple = "#8A56A2"    -- Slightly softer purple
-    colors.redDark = "#B04949"   -- Dark red for contrast
-    colors.orange = "#E89B4A"    -- Warm orange to complement green
-    colors.blueLight = "#4A90E2" -- Light blue with clarity
-    colors.comment = "#7A7A7A"   -- Comment gray, neutral
-    colors.orangeLight = "#DB7E2D" -- Lighter orange
-    colors.green = "#3FAF5C"     -- Strong green to go with background
-    colors.yellowDark = "#B38C33" -- Muted yellow
-    colors.purpleDark = "#6E3E87" -- Darker purple
-    colors.symbol = "#5C5C5C"    -- Neutral symbol color
-    colors.primary = "#2E2E2E"   -- Primary text dark
-    colors.terminalbrightblack = "#404040" -- Bright black for terminal contrast
+    colors.blue = "#6B85B2"      -- Muted, calming blue for a harmonious palette
+    colors.red = "#B86161"       -- Soft, warm red for visual accents
+    colors.purple = "#8A5A9B"    -- Subtle purple for highlights
+    colors.redDark = "#A34747"   -- Darker, muted red for contrast
+    colors.orange = "#D69F58"    -- Warm orange for balance with green
+    colors.blueLight = "#5A92C1" -- Light blue for clarity without being harsh
+    colors.comment = "#7A7A7A"   -- Neutral gray for comments
+    colors.orangeLight = "#C8883B" -- Light orange for subtle warmth
+    colors.green = "#3A8F5B"     -- Strong green to complement background, but not too vibrant
+    colors.yellowDark = "#B88E4B" -- Muted yellow for highlights without being overwhelming
+    colors.purpleDark = "#714A7A" -- Dark purple for contrast and balance
+    colors.symbol = "#4C4C4C"    -- Neutral gray for symbols
+    colors.primary = "#282828"   -- Primary dark color for text
+    colors.terminalbrightblack = "#3A3A3A" -- Softer dark gray for terminal contrast
 else
 	-- background colors
 	colors.bg = config.transparent and "NONE" or "#212121"
