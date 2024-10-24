@@ -7,7 +7,7 @@ local colors = {
 
 if vim.o.background == "light" then
     -- background colors
-    colors.bg = config.transparent and "NONE" or "#C8E3C8"  -- Stronger soft green background
+    colors.bg = config.transparent and "NONE" or "#EBFDEE"  -- Stronger soft green background
     colors.bgDark = "#B1D2B1"   -- Softer, slightly darker green
     colors.bgDarker = "#A3C4A3"  -- Deeper green for subtle contrast
     colors.bgFloat = "#D0E5D0"  -- Light float background, gentle
